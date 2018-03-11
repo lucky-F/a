@@ -1,0 +1,133 @@
+body,ul,li,a,p{
+	margin: 0px;
+	padding:0px;
+}
+a{
+	text-decoration: none;
+}
+ul li{
+	list-style: none;
+}
+body{
+	width: 1000px;
+	margin: auto;
+}
+.header{
+	width: 1000px;
+	height: 180px;
+	margin: auto;
+	background:url(../img/computer.jpg);
+}
+.nav{
+	height: 50px;
+	width: 1000px;
+}
+/*.nav .nav-left{
+	width: 43px;
+	height: 50px;
+	float: left;;
+	background-image: url(../img/little.png);
+}*/
+.nav .nav-right{
+	width: 620px;
+	height: 50px;
+	float: right;
+	font-size: 16px;
+
+}
+.nav .nav-right-ul{
+	float: right;
+}
+.nav .nav-right-li{
+	float: left;
+	padding: 15px 20px;
+	transition: all .5s; 
+	cursor: pointer;
+}
+.nav .nav-right-li:hover{
+	/*border-bottom: 5px solid #e3f1bb;*/
+	background: #e3f1bb;
+	border-radius: 50px 0px;
+}
+.sub-nav{
+	position: relative;
+	float:right;
+	background: url(../img/1.png) no-repeat;
+	width:750px;
+	height:30px;
+	font-size: 15px;
+
+}
+.sub-nav-p{
+	position: absolute;
+	top:5px;
+	left:600px;
+	color:#98a95b;
+	font-weight: bold;
+}
+.content{
+	position:relative;
+	width:1000px;
+	margin:1px auto 0;
+	background-color:red;
+}
+.sidebar-left{
+	position:relative;
+	float:left;
+	height:200px;
+	width:230px;
+}
+.title{
+	background-color:#3f3f3f;
+	color:#98a95b;
+	line-height: 50px;
+	font-weight:bold;
+	border:1px solid;
+	border-radius: 8px 8px 0 0; 
+}
+.title-img{
+	width:25px;
+	height:25px;
+	position: absolute;
+	left:20px;
+	top:10px;
+}
+.title-s{
+	padding-left:60px;
+}
+.sidebar-right{
+	margin-top:10px;
+	height: 600px;
+	width:750px;
+	border:1px solid #000; 
+	position:relative;
+	float: right;
+}
+.tip{
+	margin: 0;
+	position: relative;
+	font-weight: bold;
+	color: #a9bf5d;
+	background-color:#e3f0bb;
+	text-decoration: none;
+	list-style: none;
+}
+.tip-l{
+	padding-left:70px;
+	color:  #a9bf5d;
+	cursor: pointer;
+	text-decoration: none;
+	height:50px;
+	line-height: 50px;
+}
+.tip-l:hover{
+	display: block;
+	color:#fff;
+	line-height: 50px;
+	height:50px;
+	background-color:#b8ce6c;
+	text-decoration: none;
+	list-style: none;
+}
+
+
